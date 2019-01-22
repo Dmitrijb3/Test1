@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 13px;
+}
+
+#topnav {
+  position: relative;
+  top: 10px;
+  height: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.topnavtext1,
+.topnavtext2 {
+  text-decoration: none;
+  color: #222;
+  padding: 10px;
+} 
+
+.topnavtext1:hover,
+.topnavtext2:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.app1,
+.bell,
+.accpic {
+  padding: 10px;
+}
+
+.app1,
+.bell {
+  filter: opacity(50%);
+}
+
+.img1 {
+  border-radius: 50%;
+}
+
+.bell:hover,
+.app1:hover {
+  filter: opacity(100%);
+}
+
+.logo {
+  position: relative;
+  top: 160px;
+  left: 41%;
+}
+
+.searchbar {
+  position: relative;
+  top: 190px;
+  text-align: center;
+  box-sizing: 200px;
+}
+
+.searchbar input {
+  height: 44px;
+  width: 584px;
+  font-size: 15px;
+  vertical-align: middle;
+  padding: 5px 8px 0 16px;
+  color: grey;
+}
+
+.searchbar input:hover {
+    box-shadow: 0 3px 8px 0;
+    box-shadow: rgba(192,192,192,0.3);
+}
+
+.micro {
+  position: absolute;
+  top: 10px;
+  right: 510px;
+  height: 24px;
+  width: 24px;
+}
+
+.centerbuttons {
+  position: relative;
+  top: 210px;
+  text-align: center;
+}
+
+.centerbuttons input {
+  height: 34px;
+  width: 140.6px;
+  padding: 0 16px;
+  margin: 11px 4px; 
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #f2f2f2;
+  color: #757575
+}
+
+.centerbuttons input:hover {
+  border: 1px solid #c6c6c6;
+  color: black;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.lngoff {
+  position: absolute;
+  top: 450px;
+  left: 680px;
+}
+
+.txt1 {
+  text-decoration: none;
+}
+
+.txt1:hover {
+  text-decoration: underline;
+}
+
+.ftr2left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  text-decoration: none;
+}
+
+.ftr3right {
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  width: 100%;
+  padding-left: 65%;
+}
+
+.ftr1 {
+  position: absolute;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  bottom: 5%;
+  left: 0;
+  padding-left: 27px;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  width: 100%;
+}
+
+.ftrtxt {
+  text-decoration: none;
+  color: #5f6368;
+  padding-left: 27px;
+}
+
+.ftrtxt:hover {
+  text-decoration: underline;
+}
+
